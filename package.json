@@ -1,0 +1,27 @@
+{
+  "name": "insure-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Insure landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i tailwind.css -o ./layouts/css/styles.css --watch",
+    "prod": "npx tailwindcss -i tailwind.css -o ./layouts/css/styles.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rk-codeflow/insure-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rk-codeflow/insure-landing-page/issues"
+  },
+  "homepage": "https://github.com/rk-codeflow/insure-landing-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.18"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.1"
+  }
+}
